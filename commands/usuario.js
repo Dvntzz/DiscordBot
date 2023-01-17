@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("user")
+    .setName("usuario")
     .setDescription("Prove informações sobre o usuario"),
   async execute(interaction) {
     // interact.user é o objeto que representa o usuário que executou o comando
